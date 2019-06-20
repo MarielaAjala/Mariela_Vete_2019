@@ -1,10 +1,10 @@
 from pattern.web import MediaWiki,Wiktionary,URL,extension
 import pattern.es
-from pattern.es import conjugate, tag,parse
-import random
-import sys
-import string
-if sys.version_info[0] >= 3:
+from pattern.es import conjugate, tag,parse                 #DEBIDO A CIRCUNSTANCIAS INESPERADAS HE DEBIDO REALIZAR EL TRABAJO FINAL
+import random                                               #SOLA. EL ARCHIVO, SI BIEN TIENE GRAN PARTE DEL CODIGO PROBADA ANTES DE
+import sys                                                  #INGRESARLA EN EL IDE, OTRA PARTE NO PUDO SER REALIZADA NI COMPROBADA.
+import string                                               #Y NO HE PODIDO TERMINAR DE ENTENDER SG.GRAPH Y COMO ENVIAR LAS COORDENADAS
+if sys.version_info[0] >= 3:                                #PARA QUE EL GRAFICO QUEDARA BIEN PROPORCIONADO.
     import PySimpleGUI as sg
 else:
     import PySimpleGUI27 as sg
